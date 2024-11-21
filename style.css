@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: Montserrat;
+}
+
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.allDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+
+.topCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.leftTopCard h4 {
+  margin-top: 0px !important;
+  margin-bottom: 4px !important ;
+  font-size: 30px !important;
+}
+
+.leftTopCard p {
+  margin: 0px !important;
+}
+
+.iconBox {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #212121;
+  opacity: 1;
+}
+
+.middleDiv {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.middleMainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.middleFirstDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+
+.middleFirstTopDiv {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+
+.middleFirstTopDiv h4,
+p {
+  margin: 0px;
+}
+
+.middleFirstTopDiv h4 {
+  margin-bottom: 4px;
+}
+
+.iconDiv {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #fdd74d;
+}
+
+.middleFirstbottomDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.middleFirstbottomDivTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.priceTextDiv > p {
+  font-weight: bold;
+}
+
+.middleFirstbottomDivBottom > button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+}
+.middlesecindDiv{
+  border-bottom: 1px solid grey;
+}
+.middlesecindtopDiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.feevalueDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.middlesecindbuttonDiv > button{
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.middlethreedDiv{
+  border-bottom: 1px solid grey;
+}
+.middlethreedtopDiv{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.middlethreedbuttondiv >button{
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+.middlefourthbuttondiv{
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  gap: 10px;
+  padding: 5px 15px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.but1,.but2{
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+.but2{
+  color: white;
+  background-color: hsl(228.52deg 95.83% 52.94%);
+  border:none;
+}
+.but1{
+  padding: 4px 10px;
+}
+.Receivetextdiv,h4{
+ margin: 0px;
+ margin-top: 5px;
+}
+
+@media only screen and (max-width: 450px) {
+  .topCard{
+    display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+     gap: 10px;
+  }
+} 
